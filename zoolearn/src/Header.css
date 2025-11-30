@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:rgb(255, 252, 252);
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.19);
+}
+
+nav  .logo-container{
+    width:25%;
+    height:80%;
+    display: flex;
+    align-items: center;
+}
+nav .logo-container .logo{
+    height:80px;
+    width:80px;
+    background-color: black;
+    margin:50px;
+}
+nav .logo-container h1{
+    font-family: "Aladin", system-ui;
+    letter-spacing: 5px;
+    color:#699c0b
+}
+nav .logo-container h1 span{
+    font-size: 70px;
+}
+nav .nav-content{
+    width:50%;
+    height:80%;
+   
+}
+
+nav .nav-content ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+}
+nav .nav-content ul li{
+    color:grey;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+}
+nav .nav-content ul li:hover{
+    color:#699c0b;
+    font-weight: bold;
+    cursor: pointer;
+}
