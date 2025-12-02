@@ -1,37 +1,16 @@
-# ZooLearn
+# React + Vite
 
-## Overview
-ZooLearn is an interactive learning platform designed for biology students to study animal behavior, taxonomy, and ecology through engaging multimedia content and hands-on activities.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- **Interactive Lessons**: Explore diverse animal species with visual guides and detailed information
-- **Taxonomy Explorer**: Navigate through classification systems and evolutionary relationships
-- **Quizzes & Assessments**: Test your knowledge with adaptive quizzes
-- **Virtual Lab**: Simulate field observations and experiments
-- **Community Forum**: Connect with other biology enthusiasts
+Currently, two official plugins are available:
 
-## Getting Started
-1. Create an account
-2. Select your learning path (Introductory, Intermediate, Advanced)
-3. Start with any module that interests you
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Modules
-- Mammalogy
-- Ornithology
-- Entomology
-- Marine Biology
-- Conservation Biology
+## React Compiler
 
-## Requirements
-- Modern web browser
-- Internet connection
-- Basic biology knowledge (Intro level) or prerequisites (Advanced level)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Contributing
-Educators and researchers can contribute content. See `CONTRIBUTING.md` for guidelines.
+## Expanding the ESLint configuration
 
-## License
-MIT License - See `LICENSE` file for details
-
-## Support
-For questions or issues, visit our [support page](https://zoolearn.example.com/support)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
