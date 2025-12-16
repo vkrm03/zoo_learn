@@ -35,4 +35,3 @@ MIT License - See `LICENSE` file for details
 
 ## Support
 For questions or issues, visit our [support page](https://zoolearn.examp>
->>>>>>> 3b8d8b5 (Repo created and readme added)
