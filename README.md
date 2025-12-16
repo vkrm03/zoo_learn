@@ -34,4 +34,9 @@ Educators and researchers can contribute content. See `CONTRIBUTING.md` >
 MIT License - See `LICENSE` file for details
 
 ## Support
+<<<<<<< HEAD
 For questions or issues, visit our [support page](https://zoolearn.examp)
+=======
+For questions or issues, visit our [support page](https://zoolearn.examp>
+>>>>>>> 3b8d8b5 (Repo created and readme added)
+>>>>>>> 15d09c3 (16.12.2025 home page)
