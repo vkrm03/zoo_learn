@@ -64,7 +64,7 @@ export default function Banner() {
               </div>
             ))}
           </div>
-
+    
           {/* CTA Buttons */}
           <div className="banner-cta">
             <button className="cta-primary">
@@ -87,6 +87,8 @@ export default function Banner() {
             ))}
           </div>
         </div>
+     
+      
 
         {/* Right Banner Image */}
         <div className="banner-right">

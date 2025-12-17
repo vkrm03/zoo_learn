@@ -358,3 +358,61 @@
     background: rgba(255, 255, 255, 0.2);
   }
 }
+
+
+.home-profile-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.home-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+
+  background: white;
+  padding: 1rem 1.4rem;
+  border-radius: 18px;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(47, 116, 50, 0.15);
+}
+
+.home-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--goblin);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.home-username {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.banner-container {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+}
+.banner-container {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+
+  padding-top: 70px;   
+}

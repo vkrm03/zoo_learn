@@ -9,12 +9,12 @@ import HomePage from './HomePage.jsx'
      return(
         <div className='Home_Page'>
             
-             <HomePage />
-            <Header />
-
-            <TaxonomyPage />
-            <ZooFooter />
-            
+             <nav> <Header /></nav>
+            <Banner /> 
+            <HomePage  />
+              
+         <footer><ZooFooter /> </footer>
+        
     
         </div>
      )

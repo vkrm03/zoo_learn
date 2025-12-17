@@ -53,8 +53,8 @@ export default function Header() {
     { name: "Taxonomy Tree" },
     { name: "3D Models" },
     { name: "Quizzes" },
-    { name: "Achievements" },
     { name: "About" },
+    { name : "Logout"}
   ];
 
   return (
@@ -125,6 +125,6 @@ export default function Header() {
         </div>
       )}
   
-    </header>   
+    </header>
   );
 }
